@@ -1,0 +1,10 @@
+data/*
+!data/.gitkeep
+!data/manifests/
+*.ckpt
+*.pt
+*.pth
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/

@@ -1,0 +1,19 @@
+[project]
+name = "ecgenius-wp5"
+version = "0.1.0"
+description = "WP5 specialist-experts research for ECGenius"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "torch",
+    "wfdb",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.ruff]
+line-length = 100
